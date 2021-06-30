@@ -1,0 +1,93 @@
+html {
+    background-color: rgba(12, 93, 114, 0.198);
+}
+
+nav {
+    width: 100%;
+    height: 45px;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(17, 151, 175, 0.616);
+    border-radius: 5px;
+}
+
+#nav1 {
+    padding-top: 5px;
+    padding-left: 20px;
+    align-self: center;
+    justify-self: flex-start;
+}
+
+#nav2 {
+    justify-self: center;
+    padding-right: 20px;
+}
+
+#nav3 {
+    justify-self: end;
+    padding-right: 20px;
+}
+
+#instructions {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonArea {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    background-color: rgb(11, 197, 166);
+    border: 1px solid rgba(21, 111, 172, 0.952);
+    border-radius: 3px;
+    font: 1em sans-serif;
+}
+
+#displayArea {
+    width: 100%;
+    padding-top: 20px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+table {
+    border: 0px solid black;
+    box-shadow: 1px -1px 5px 1px rgba(0, 0, 0, 0.335);
+    border-radius: 5px;
+
+}
+
+#tableHeader {
+    text-align: center;
+}
+
+table, td, tr {
+    font-size: 1.5rem;
+    width: fit-content;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+
+table tr:nth-child(even) {
+    background-color: rgb(246, 248, 231);
+}
+
+table tr:nth-child(odd) {
+    background-color: rgb(231, 247, 248);
+}
+
+table tr:first-child td {
+   
+    background-color: rgba(33, 178, 189, 0.555);
+}
+

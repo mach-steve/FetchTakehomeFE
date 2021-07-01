@@ -32,7 +32,7 @@ const handleGetAllClick = async () => {
 
     // Takes the 'sorted' object built by the first for loop and iterates over each key (listId), building a table for each listId and appending it to 'tablesOutput'
     for (let objEntry in sorted) {
-        let finishedTable = `<table><tr><td colspan='3' id='tableHeader'>List ID ${objEntry}</td></tr><tr><td>ID</td><td>List ID</td><td>Name</td></tr>`;
+        let finishedTable = `<table><thead><tr><th colspan='3' id='tableHeader'>List ID ${objEntry}</th></tr></thead><tr><td>ID</td><td>List ID</td><td>Name</td></tr>`;
 
         // Sort each 'listId' table by name, use regex & parseInt to isolate and sort integers
         let nameRegEx = /(\d+)/; 
